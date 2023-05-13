@@ -343,55 +343,7 @@ padding-right: 5px;
     font-weight: 600;
     color: #e66c0f;
   }
-  /* section 4 ends */
-  /* Styles for screens smaller than 768px */
-/* @media (max-width: 767px) {
-  .whyh2 {
-    font-size: 32px;
-    padding: 20px 0;
-  }
-  .whyh3 {
-    font-size: 28px;
-    margin-left: 20px;
-    padding: 10px 0;
-  }
-  .whySIcontainer {
-    width: 100%;
-    height: auto;
-    box-shadow: none;
-  }
-  .even {
-    margin-top: -20px;
-  }
-  .row2 {
-    margin-top: 10px;
-  }
-  .whySIcard {
-    width: 100%;
-    height: auto;
-    border-radius: 0;
-    margin-left: 0;
-    margin-top: 30px;
-  }
-  .sicol {
-    margin-left: 0;
-  }
-  .whySIimg {
-    width: 60px;
-    height: 60px;
-    margin-left: 20px;
-    margin-top: -6px;
-  }
-  .whySIbody p {
-    font-size: 16px;
-    line-height: 1.2;
-  }
-} */
-
-
-/* testing */
-/* Styles for screens smaller than 768px */
-/* Styles for screens smaller than 768px */
+  
 @media (max-width: 767px) {
   .whyh2 {
     font-size: 36px;
@@ -456,7 +408,19 @@ padding-right: 5px;
 }
 
 
+.s5h2{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px 0;
+  font-size: 56px;
+  font-weight: bold;
 
+}
+.s5bg{
+  width: 677px;
+  height: 400px;
+background-image: url('/assets/images/25.png');
+}
 
 
 
