@@ -21,6 +21,7 @@
   width: fit-content;
   height: 80%;
   margin-bottom: 20px;
+  overflow: hidden;
 }
 
 #homeimg {
@@ -147,7 +148,7 @@
 }
 .arrayService{
   font-family: 'Poppins', sans-serif;
-  font-size: 48;
+  font-size: 48px;
   font-weight: bold;
   padding: 5px;
   margin-bottom: 30px;
@@ -411,7 +412,7 @@ padding-right: 5px;
 .s5h2{
   text-align: center;
   font-family: 'Poppins', sans-serif;
-  padding: 20px 0;
+  margin-top: 80px;
   font-size: 56px;
   font-weight: bold;
 
@@ -420,20 +421,120 @@ padding-right: 5px;
   width:1379px;;
   height: 400px;
 background-image: url('/assets/images/25.png');
+overflow: hidden;
+background-repeat: no-repeat;
+background-size: cover;
 }
 .s5carsol{
   width: 50px;
 }
 .carousel-item{
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  width:497px;
-  height:380px;
+  width:350px;
+  height:350px;
 }
 .carousel-item p{
   font-family: 'Poppins', sans-serif;
-  font-size: 24;
-  margin-top: 15px;
+  font-size: 24px;
+  margin-top: 3px;
+  width:400px;
+  font-weight: lighter;
+}
+.carousel-item h5{
+  /* background-color: #d81717; */
+  position:absolute;
+  font-weight: 700;
+  bottom: 90px;
+  padding-top: 5px;
+}
+.testicol{
+  box-shadow: rgba(125, 103, 103, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+width: 450px;
+background-color: white;
+}
+.carousel-item img{
+  margin-top:70px;
+  position: absolute;
+  left:70;
+  top:200px;
+  width: 80px;
+  height: 60;
+  margin-bottom: 1px;
+}
+.s5h3{
+ font-size: 48px; 
+ font-weight: 700;
+ margin-left: 50px;
+ color: #1172e4;
+ margin: 50px;
 
 }
+/* testing  */
+/* For screen sizes below 576px (i.e., extra-small devices) */
+
+/* For screen sizes between 992px and 1200px (i.e., large devices) */
+
+/* For screens smaller than 576px (i.e., extra-small devices) */
+
+@media screen and (max-width: 575.98px) {
+  
+  .s5h2 {
+    font-size: 36px;
+    margin-top: 60px;
+  }
+  
+  .s5bg {
+    height: 250px;
+    width: 100%;
+  }
+  
+  .s5carsol {
+    width: 30px;
+  }
+  
+  .carousel-item {
+    width: 250px;
+    height: 250px;
+  }
+  
+  .carousel-item p {
+    font-size: 16px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .carousel-item h5 {
+    font-size: 22px;
+    bottom: 70px;
+  }
+  
+  .testicol {
+    width: 280px;
+  }
+  
+  .carousel-item img {
+    margin-top: 50px;
+    width: 60%;
+    height: auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .s5h3 {
+    font-size: 32px;
+    margin: 30px;
+  }
+}
+
+
+  
+
+
+/* For screen sizes above 768px (i.e., desktop devices) */
+
+
+/* For screens larger than 768px (desktop devices) */
+
+
+/*  */
 
 
