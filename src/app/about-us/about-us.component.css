@@ -148,6 +148,7 @@
     .s2p {
       font-size: 18px;
       margin-left: 0;
+      letter-spacing: normal;
     }
   
     .s2img {
@@ -165,9 +166,11 @@ width: 1488px;
 height: 599px;
 background-color:  #d81717;
 border-radius: 30px;
+
+
 }
 .s3img{
-width:599px;
+width:602px;
 height:599px;
 
 }
@@ -184,6 +187,7 @@ height:599px;
     font-size: 28px;
     font-weight: 500;
     margin-top: 25px;
+  
     
     
 }
@@ -194,4 +198,333 @@ height:599px;
 /* section 3 ends */
 
 /* testing */
+/* Default styles for the container */
+.s3container{
+  width: 1488px;
+  height: 599px;
+  background-color:#d81717;
+  border-radius: 30px;
+}
+
+/* Default styles for the image */
+.s3img{
+  width: 602px;
+  height: 599px;
+}
+
+/* Default styles for the heading */
+.s3h3{
+  font-family: 'Poppins', sans-serif;
+  font-size: 56px;
+  font-weight: bold;
+  color: black;
+  margin-top: 65px;
+}
+
+/* Default styles for the paragraph */
+.s3p{
+  font-family: 'Poppins', sans-serif;
+  color:black;
+  font-size: 28px;
+  font-weight: 500;
+  margin-top: 25px;
+}
+
+/* Default styles for the image */
+.s3img{
+  margin-left: -12px;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .s3container {
+      width: 100%;
+      height: auto;
+      border-radius: 0;
+      background-color: #d81717;
+  }
+
+  .s3img {
+      width: 100%;
+      height: auto;
+      margin-left: 0;
+      margin-top: 25px;
+  }
+
+  .s3h3 {
+      font-size: 36px;
+      margin-top: 35px;
+      color: #ffffff;
+      padding:5px;
+  }
+
+  .s3p {
+      font-size: 18px;
+      margin-top: 15px;
+      color: #ffffff;
+      padding: 5px;
+    
+  }
+  .s3col{
+    background-color: #d81717;
+    margin-top: 20px;
+  }
+}
+
+/* Media query for medium-sized screens */
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+  .s3container {
+      width: 100%;
+      height: auto;
+      border-radius: 0;
+  }
+
+  .s3img {
+      width: 100%;
+      height: auto;
+      margin-left: 0;
+  }
+
+  .s3h3 {
+      font-size: 48px;
+      margin-top: 55px;
+  }
+
+  .s3p {
+      font-size: 24px;
+      margin-top: 20px;
+  }
+}
+
+/* Media query for larger screens */
+@media only screen and (min-width: 1201px) {
+  .s3container {
+      width: 1488px;
+      height: 599px;
+      border-radius: 30px;
+  }
+
+  .s3img {
+      width: 602px;
+      height: 599px;
+      margin-left: -12px;
+  }
+
+  .s3h3 {
+      font-size: 56px;
+      margin-top: 65px;
+  }
+
+  .s3p {
+      font-size: 28px;
+      margin-top: 25px;
+  }
+}
+
+/* section 4 styles */
+.s4card{
+  width: 476px;
+  height: 359px;
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+
+  .s4img{
+  width: 80px;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.s4h5{
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #d81717;
+}
+.s4p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  word-spacing: 5px;
+}
+.s4container{
+  margin: 5% 0;
+}
+
+/* Styles for screens smaller than 768px */
+@media only screen and (max-width: 767px) {
+  .s4card{
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    margin-left: 0;
+  }
+  .s4img{
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .s4h5{
+    font-size: 24px;
+  }
+  .s4p{
+    font-size: 18px;
+    word-spacing: 3px;
+  }
+  .s4container{
+    margin-top: 5%;
+  }
+}
+
+/* section 4 ends */
+
+/* section 5 */
+/* .s5container{
+  background-image: url('/assets/images/Rectangle 208.png');
+  height: 867px;
+  width: 1519px;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+.s5h2{
+  font-family: 'Poppins', sans-serif;
+  font-size: 96px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-left: 40px;
+  margin-top: 40px;
+
+}
+.dropdown{
+  margin-left: 40px;
+  width: 492px;
+  height: 88px;
+
+}
+.dropdown-toggle{
+  padding: 7px 103px;
+  background-color: #ffffff;
+  color: black;
+  font-size: 28px;
+  text-align: left;
+  border-color: black;
+  font-family: 'Poppins', sans-serif;
+}
+input{
+  margin-left: 40px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  width: 390px;
+  height: 60px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  color: black;
+}
+.s5btn{
+  margin-left: 150px;
+  padding: 15px 40px;
+  margin-bottom: 50px;
+  font-weight: bold;
   
+} */
+/* section 5 ends */
+/* testing */
+/* Default styles for larger screens */
+.s5container {
+  background-image: url('/assets/images/Rectangle 208.png');
+  height: 867px;
+  width: 1519px;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.s5h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 96px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.dropdown {
+  margin-left: 40px;
+  width: 492px;
+  height: 88px;
+}
+
+.dropdown-toggle {
+  padding: 7px 103px;
+  background-color: #ffffff;
+  color: black;
+  font-size: 28px;
+  text-align: left;
+  border-color: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+input {
+  margin-left: 40px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  width: 390px;
+  height: 60px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  color: black;
+}
+
+.s5btn {
+  margin-left: 150px;
+  padding: 15px 40px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+  .s5container {
+    height: auto;
+    width: auto;
+    margin-top: 20px;
+  }
+
+  .s5h2 {
+    font-size: 48px;
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .dropdown {
+    margin-left: 0px;
+    width: auto;
+    height: auto;
+  }
+
+  .dropdown-toggle {
+    padding: 7px 72px;
+    font-size: 16px;
+  }
+
+  input {
+    margin-left: 0px;
+    width: auto;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 5px;
+  }
+
+  .s5btn {
+    margin-left: 0px;
+    padding: 05px 20px;
+    margin-top: 30px;
+
+  }
+}
+
+/* testing ends */
