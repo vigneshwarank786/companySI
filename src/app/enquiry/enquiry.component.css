@@ -1,0 +1,93 @@
+.s5container {
+    background-image: url('/assets/images/Rectangle 208.png');
+    height: 867px;
+    width: 1519px;
+    border-radius: 5px;
+    margin-top: 50px;
+  }
+  
+  .s5h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 96px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 40px;
+    margin-top: 40px;
+  }
+  
+  .dropdown {
+    margin-left: 40px;
+    width: 492px;
+    height: 88px;
+  }
+  
+  .dropdown-toggle {
+    padding: 7px 103px;
+    background-color: #ffffff;
+    color: black;
+    font-size: 28px;
+    text-align: left;
+    border-color: black;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  input {
+    margin-left: 40px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    width: 390px;
+    height: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    color: black;
+  }
+  
+  .s5btn {
+    margin-left: 150px;
+    padding: 15px 40px;
+    margin-bottom: 50px;
+    font-weight: bold;
+  }
+  
+  /* Media query for mobile devices */
+  @media only screen and (max-width: 600px) {
+    .s5container {
+      height: auto;
+      width: auto;
+      margin-top: 20px;
+    }
+  
+    .s5h2 {
+      font-size: 48px;
+      margin-left: 0px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+  
+    .dropdown {
+      margin-left: 0px;
+      width: auto;
+      height: auto;
+    }
+  
+    .dropdown-toggle {
+      padding: 7px 72px;
+      font-size: 16px;
+    }
+  
+    input {
+      margin-left: 0px;
+      width: auto;
+      height: 40px;
+      font-size: 20px;
+      margin-top: 5px;
+    }
+  
+    .s5btn {
+      margin-left: 0px;
+      padding: 05px 20px;
+      margin-top: 30px;
+  
+    }
+  }
