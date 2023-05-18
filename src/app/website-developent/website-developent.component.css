@@ -97,40 +97,20 @@
     0% { transform: rotate(-180deg); opacity: 0; }
     100% { transform: rotate(0); opacity: 1; }
   }
-  @media only screen and (max-width: 767px) {
-    .s2container {
-      margin: 0;
-    }
-  
-    .s2img .s3img .s4img .s5img {
-      width: 100%;
-      height: auto;
-      margin-left: 0;
-    }
-  
-    .s2h3 .s3h3 .s4h3 .s5h3{
-      font-size: 20px;
-      margin-top: 20px;
-      margin-left: -10px;
-    }
-  
-    .s2p .s3p .s4p .s5p {
-      font-size: 18px;
-      margin-top: 30px;
-    }
-  }
   
   
   
+  *{overflow: hidden;}
   
   
 
   /* section 2 */
-  .s2container{
-    margin: 0;
-      }
+  /* testing */
+  
+  /* testing */
+
       .s2img{
-        width: 868px;
+        width: 968px;
         height: 733px;
         margin-left:-1.6%;
 
@@ -181,8 +161,15 @@
         }
         .s3col{
             margin-right:-23px;
-            background-color: #1172e4;
+            width: 53%;
+            
         }
+        .s3coltext{
+          margin-right:-23px;
+          background-color: #1172e4;
+        
+          
+      }
       /* section 3 ends */
       /* section 4  */
      
@@ -216,16 +203,12 @@
             background-color: #c4c4c4;
         }
       /* section 4 ends */
-      /* section 5 start */
-      .s2container{
-        margin: 0;
-          }
+      /* /* section 5 start  */
           .s5img{
             width: 968px;
             height: 733px;
             margin-left:-12px;
-            box-sizing: border-box;
-        
+            
         
           }
         .s5h3{
@@ -250,5 +233,136 @@
         .s5col{
             background-color:#3d8ce9;
             margin-left: -22px;
+            
         }
-/* Media Query for Mobile Devices */
+        .s5imgcol{
+          margin-right:-23px;
+          width: 52.8%;
+        }
+        
+        @media only screen and (max-width: 767px) {
+          
+          .s2img {
+            width: 100%;
+            height: auto;
+            
+          }
+          .s2col{
+            width: 100%;
+            margin: 3%;
+          }
+          
+          .s2h3 {
+            font-size: 36px;
+            margin-top: 30px;
+          }
+          
+          .s2p {
+            font-size: 20px;
+            margin-top: 40px;
+            margin-right: 10px;
+          }
+          
+          /* section 2 ends */
+          
+          /* section 3 */
+          
+          .s3img {
+            width: 100%;
+            height: auto;
+            margin-left: -12px;
+          }
+          
+          .s3h3 {
+            font-size: 36px;
+            margin-top: 30px;
+          }
+          
+          .s3p {
+            font-size: 20px;
+            margin-top: 40px;
+            margin-left: 10px;
+            margin-right: 20px;
+          }
+          
+          .s3col{
+            margin-left: 3%;
+            width: 100%;
+            margin: 3%;
+          }
+          
+          /* .s3coltext {
+            margin-right: 0;
+          } */
+          
+          /* section 3 ends */
+          
+          /* section 4 */
+          
+          .s4img {
+            width: 100%;
+            height: auto;
+            margin-left: -12px;
+          }
+          
+          .s4h3 {
+            font-size: 36px;
+            margin-top: 30px;
+            margin-left: 10px;
+          }
+          
+          .s4p {
+            font-size: 20px;
+            margin-top: 40px;
+            margin-left: 10px;
+            margin-right: 10px;
+          }
+          
+          .s4col {
+            margin-left: 0;
+            width: 100%;
+          }
+          .s4colimg{
+          width: 100%;
+          margin: 3%;
+        
+          }
+          
+          /* section 4 ends */
+          
+          /* section 5 start */
+          
+          .s5img {
+            width: 100%;
+            height: auto;
+          }
+          
+          .s5h3 {
+            font-size: 36px;
+            margin-top: 30px;
+            margin-left: 20px;
+          }
+          
+          .s5p {
+            font-size: 20px;
+            margin-top: 40px;
+            margin-left: 20px;
+            margin-right: 10px;
+          }
+          
+          .s5col {
+            margin-left: 0;
+            width: 100%;
+          }
+          
+          .s5imgcol {
+            margin: 3%;
+            margin-left: 3%;
+            width: 100%;
+
+          }
+          
+          
+        }
+
+        
