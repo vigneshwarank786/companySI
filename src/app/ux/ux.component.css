@@ -1,0 +1,546 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.section1 {
+    background-image: url('/assets/images/final\ 5.png');
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+  }
+  
+  .heading {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+  }
+  
+  .s1h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+  }
+  
+    .navbar-brand {
+        position: relative;
+        left: 70px;
+        animation: slide-in-left 0.5s ease-in-out;
+        margin-top: 1.1%;
+    }
+  
+  #navbarNav {
+    margin-right: 42px;
+    font-size: 20px;
+  }
+  
+  .nav-link {
+    color: white;
+  }
+/* 
+  @media screen and (max-width:425px) {
+    #navbarNav {
+        margin-right: 5%;
+        font-size: 20px;
+      }
+      .navbar-brand {
+      
+        animation: slide-in-left 0.5s ease-in-out;
+        margin-top: 1.1%;
+    }
+    .s1h2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 4rem;
+        color: white;
+        text-align: center;
+        top:2%;
+      }
+  }
+  @media screen and (max-width:768px) {
+    #navbarNav {
+        margin-right: 5%;
+        font-size: 20px;
+      }
+      .navbar-brand {
+      
+        animation: slide-in-left 0.5s ease-in-out;
+        margin-top: 1.1%;
+    }
+    .s1h2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 4rem;
+        color: white;
+        text-align: center;
+        /* margin-left: 25%;  
+      }
+  } */
+
+  /* @media screen and (min-width:1024px) {
+    #navbarNav {
+        margin-right: 5%;
+        font-size: 20px;
+      }
+      .navbar-brand {
+      
+        animation: slide-in-left 0.5s ease-in-out;
+        margin-top: 1.1%;
+    }
+    .s1h2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 5rem;
+        color: white;
+        text-align: center;
+    margin-top: 2%;
+
+      }
+      .section1{
+        width: 100%;
+        height: 55vh;
+      }
+  } */
+
+  /* testing */
+  @media (max-width: 767px) {
+    #navbarNav {
+      margin-right: 5%;
+      font-size: 1rem;
+    }
+    .navbar-brand {
+    
+      animation: slide-in-left 0.5s ease-in-out;
+      margin-top: 1.1%;
+      margin-left: -16%;
+  }
+  .s1h2 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 2.5rem;
+      color: white;
+      text-align: center;
+      margin-top: 6%;
+     /* margin-left: 8%;   */
+    }
+  
+  }
+  
+  /* Styles for viewport sizes between 768px and 1024px (e.g., tablets) */
+  @media (min-width: 768px) and (max-width: 1024px) {
+  
+      #navbarNav {
+        margin-right: 5%;
+        font-size: 1rem;
+      }
+      .navbar-brand {
+      
+        animation: slide-in-left 0.5s ease-in-out;
+        margin-top: 1.1%;
+    }
+    .s1h2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 3rem;
+        color: white;
+        text-align: center;
+        margin-top: 2%;
+        margin-left: auto;
+       /* margin-left: 8%;   */
+      }
+    
+    }
+    
+  
+  
+  /* Styles for viewport sizes larger than 1024px (e.g., laptops and desktops) */
+  @media (min-width: 1025px) {
+   
+    #navbarNav {
+      margin-right: 5%;
+      font-size: 1rem;
+    }
+    .navbar-brand {
+    
+      animation: slide-in-left 0.5s ease-in-out;
+      margin-top: 0;
+  }
+  .s1h2 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 3.5rem;
+      color: white;
+      text-align: center;
+      margin-top: 5%;
+      margin-left: auto;
+     /* margin-left: 8%;   */
+    }
+  
+   
+  }
+  /* section 2 */
+  /* .section2{
+    margin-top: 10%;
+    font-family: 'Poppins', sans-serif;
+  }
+  .s2_r1_h2{
+    font-size: 56px;
+    font-weight: bold;
+  }
+  .s2_r1_p{
+    font-size: 28px;
+    font-weight: 500;
+  }
+  .s2_r1_img{
+    width: 729px;
+    height: 604px;
+    border-radius:30px;
+  } */
+
+/* media query for section 2 */
+/* Global styles that apply to all viewport sizes */
+
+/* Styles for viewport sizes smaller than 768px (e.g., mobile phones) */
+@media (max-width: 767px) {
+  .s2col{
+    margin-bottom: 10%;
+  }
+  .section2{
+    margin-top: 10%;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+  }
+  .s2_r1_h2{
+    font-size: 46px;
+    font-weight: bold;
+    margin-bottom: 5%;
+  }
+  .s2_r1_p{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 5%;
+  }
+  .s2_r1_img{
+    width: 100%;
+    height: auto;
+    border-radius:30px;
+    margin: 5% 0;
+  }
+
+}
+
+/* Styles for viewport sizes between 768px and 1024px (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .s2col{
+    margin-bottom: 10%;
+  }
+  .section2{
+    margin-top: 10%;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+  }
+  .s2_r1_h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 5%;
+    width: 50%;
+    text-align: left;
+  }
+  .s2_r1_p{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 5%;
+    white-space: 10px;
+    width: 100%;
+  }
+  #s2p{
+    /* padding-left: 100%; */
+  position: relative;
+  left:50%;
+  text-align: justify;
+  margin-bottom: 2%;
+  top:5%
+  }
+
+  .s2_r1_img{
+    width: 50%;
+    height: auto;
+    border-radius:30px;
+    margin-left: -5%;
+    margin-top: 11%;
+  }
+
+}
+
+/* Styles for viewport sizes larger than 1024px (e.g., laptops and desktops) */
+@media (min-width: 1025px) {
+  .s2col{
+    margin-bottom: 10%;
+  }
+  .section2{
+    margin-top: 10%;
+    font-family: 'Poppins', sans-serif;
+  }
+  .s2_r1_h2{
+    font-size: 56px;
+    font-weight: bold;
+    margin-left: 3%;
+  }
+  .s2_r1_p{
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 7%;
+    white-space: 10%;
+    margin-left: 3%;
+  }
+  .s2_r1_img{
+    width: 729px;
+    height: 604px;
+    border-radius:30px;
+    
+  
+    
+  }
+
+
+}
+/* 
+.cols2r2{
+  margin-top: 5%;
+}
+.s2_r2_img{
+  width: 700px;
+  height: 960px;
+  border-radius: 30px;
+  margin-left: 1.5%;
+}
+.s2_r2_h2{
+  font-size: 56px;
+  font-weight: bold;
+  margin-top: 8%;
+
+}
+.s2_r2_p{
+  font-size: 28px;
+  font-weight: 500;
+  margin: 5% 0;
+} */
+
+/* Global styles that apply to all viewport sizes */
+
+/* Styles for viewport sizes smaller than 768px (e.g., mobile phones) */
+@media (max-width: 767px) {
+  
+.cols2r2{
+  margin-top: 10%;
+}
+.s2_r2_img{
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+
+  
+}
+.s2_r2_h2{
+  font-size: 46px;
+  font-weight: bold;
+  margin: 8% 3%;
+  
+
+}
+.s2_r2_p{
+  font-size: 24px;
+  font-weight: 500;
+  margin: 5% 0;
+  text-align: right;
+}
+.s2_r2_p_1{
+  text-align: left;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 5% 0;
+}
+}
+
+/* Styles for viewport sizes between 768px and 1024px (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cols2r2{
+    margin-top: 5%;
+  }
+  .s2_r2_img{
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    margin-left: 4%;
+    margin-top: 0%;
+    
+  }
+  .s2_r2_h2{
+    font-size: 46px;
+    font-weight: bold;
+    margin: 8% 3%;
+    width: 100%;
+    
+  
+  }
+  .s2_r2_p{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 5% 3%;
+    text-align: center;
+    width: 100%;
+  
+  }
+  .s2_r2_p_1{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 5% 0;
+  }
+}
+
+/* Styles for viewport sizes larger than 1024px (e.g., laptops and desktops) */
+@media (min-width: 1025px) {
+
+   
+.cols2r2{
+  margin-top: 2%;
+}
+.s2_r2_img{
+  width: 700px;
+  height: 960px;
+  border-radius: 30px;
+  margin-left: 2%;
+
+  
+}
+.s2_r2_h2{
+  font-size: 56px;
+  font-weight: bold;
+  margin: 8% 3%;
+  
+
+}
+.s2_r2_p{
+  font-size: 28px;
+  font-weight: 500;
+  margin: 5% 0;
+  
+}
+.s2_r2_p_1{
+  
+  font-size: 28px;
+  font-weight: 500;
+  margin: 5% 0;
+}
+}
+ 
+/* Styles for viewport sizes smaller than 768px (e.g., mobile phones) */
+@media (max-width: 767px) {
+  .s4card{
+    overflow: hidden;
+    width:100%;
+    height:auto;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  
+  }
+  
+  .s4container{
+    margin-top: 2%;
+  }
+    .s4img{
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  .s4h5{
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    font-size: 26px;
+    font-weight: 600;
+    color: #d81717;
+  }
+  .s4p{
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    font-size: 18px;
+    font-weight: 400;
+    word-spacing: 5px;
+  }
+  .s4container{
+    margin: 5% 0;
+    overflow: hidden;
+  }
+}
+
+/* Styles for viewport sizes between 768px and 1024px (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .s4card{
+    overflow: hidden;
+    width:100%;
+    height:auto;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  text-align: center;
+  margin-top: 2%;
+  }
+  
+    .s4img{
+    width: 80px;
+    height: 80px;
+    margin-left: 45%;
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  .s4h5{
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    font-size: 26px;
+    font-weight: 600;
+    color: #d81717;
+  }
+  .s4p{
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    font-size: 18px;
+    font-weight: 400;
+    word-spacing: 5px;
+  }
+  .s4container{
+    margin: 5% 0;
+    overflow: hidden;
+  }
+}
+
+/* Styles for viewport sizes larger than 1024px (e.g., laptops and desktops) */
+@media (min-width: 1025px) {
+  .s4card{
+    width: 476px;
+    height: 359px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  margin-left: 3%;
+  }
+  
+    .s4img{
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .s4h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #d81717;
+  }
+  .s4p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    word-spacing: 5px;
+  }
+  .s4container{
+    margin: 5% 0;
+  } 
+}
