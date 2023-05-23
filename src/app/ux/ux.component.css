@@ -40,69 +40,7 @@
   .nav-link {
     color: white;
   }
-/* 
-  @media screen and (max-width:425px) {
-    #navbarNav {
-        margin-right: 5%;
-        font-size: 20px;
-      }
-      .navbar-brand {
-      
-        animation: slide-in-left 0.5s ease-in-out;
-        margin-top: 1.1%;
-    }
-    .s1h2 {
-        font-family: 'Poppins', sans-serif;
-        font-size: 4rem;
-        color: white;
-        text-align: center;
-        top:2%;
-      }
-  }
-  @media screen and (max-width:768px) {
-    #navbarNav {
-        margin-right: 5%;
-        font-size: 20px;
-      }
-      .navbar-brand {
-      
-        animation: slide-in-left 0.5s ease-in-out;
-        margin-top: 1.1%;
-    }
-    .s1h2 {
-        font-family: 'Poppins', sans-serif;
-        font-size: 4rem;
-        color: white;
-        text-align: center;
-        /* margin-left: 25%;  
-      }
-  } */
 
-  /* @media screen and (min-width:1024px) {
-    #navbarNav {
-        margin-right: 5%;
-        font-size: 20px;
-      }
-      .navbar-brand {
-      
-        animation: slide-in-left 0.5s ease-in-out;
-        margin-top: 1.1%;
-    }
-    .s1h2 {
-        font-family: 'Poppins', sans-serif;
-        font-size: 5rem;
-        color: white;
-        text-align: center;
-    margin-top: 2%;
-
-      }
-      .section1{
-        width: 100%;
-        height: 55vh;
-      }
-  } */
-
-  /* testing */
   @media (max-width: 767px) {
     #navbarNav {
       margin-right: 5%;

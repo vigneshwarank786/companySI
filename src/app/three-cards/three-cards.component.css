@@ -1,0 +1,114 @@
+ 
+/* Styles for viewport sizes smaller than 768px (e.g., mobile phones) */
+@media (max-width: 767px) {
+    .s4card{
+      overflow: hidden;
+      width:100%;
+      height:auto;
+      border-radius: 10px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    
+    }
+    
+    .s4container{
+      margin-top: 2%;
+    }
+      .s4img{
+      width: 80px;
+      height: 80px;
+      margin-left: 20px;
+      margin-top: 20px;
+      overflow: hidden;
+    }
+    .s4h5{
+      font-family: 'Poppins', sans-serif;
+      overflow: hidden;
+      font-size: 26px;
+      font-weight: 600;
+      color: #d81717;
+    }
+    .s4p{
+      font-family: 'Poppins', sans-serif;
+      overflow: hidden;
+      font-size: 18px;
+      font-weight: 400;
+      word-spacing: 5px;
+    }
+    .s4container{
+      margin: 5% 0;
+      overflow: hidden;
+    }
+  }
+  
+  /* Styles for viewport sizes between 768px and 1024px (e.g., tablets) */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .s4card{
+      overflow: hidden;
+      width:100%;
+      height:auto;
+      border-radius: 10px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    text-align: center;
+    margin-top: 2%;
+    }
+    
+      .s4img{
+      width: 80px;
+      height: 80px;
+      margin-left: 45%;
+      margin-top: 20px;
+      overflow: hidden;
+    }
+    .s4h5{
+      font-family: 'Poppins', sans-serif;
+      overflow: hidden;
+      font-size: 26px;
+      font-weight: 600;
+      color: #d81717;
+    }
+    .s4p{
+      font-family: 'Poppins', sans-serif;
+      overflow: hidden;
+      font-size: 18px;
+      font-weight: 400;
+      word-spacing: 5px;
+    }
+    .s4container{
+      margin: 5% 0;
+      overflow: hidden;
+    }
+  }
+  
+  /* Styles for viewport sizes larger than 1024px (e.g., laptops and desktops) */
+  @media (min-width: 1025px) {
+    .s4card{
+      width: 476px;
+      height: 359px;
+      border-radius: 20px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+      margin-left: 1%;
+    }
+    
+      .s4img{
+      width: 80px;
+      height: 80px;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+    .s4h5{
+      font-family: 'Poppins', sans-serif;
+      font-size: 34px;
+      font-weight: 600;
+      color: #d81717;
+    }
+    .s4p{
+      font-family: 'Poppins', sans-serif;
+      font-size: 26px;
+      font-weight: 500;
+      word-spacing: 5px;
+    }
+    .s4container{
+      margin: 5% 0;
+    } 
+  }
+  
