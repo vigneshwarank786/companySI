@@ -11,6 +11,7 @@ import { UxComponent } from './ux/ux.component';
 import { WebsiteMaintanceComponent } from './website-maintance/website-maintance.component';
 import { ThreeCardsComponent } from './three-cards/three-cards.component';
 import { WebApplicationComponent } from './web-application/web-application.component';
+import { LogoDesignComponent } from './logo-design/logo-design.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { WebApplicationComponent } from './web-application/web-application.compo
     UxComponent,
     WebsiteMaintanceComponent,
     ThreeCardsComponent,
-    WebApplicationComponent
+    WebApplicationComponent,
+    LogoDesignComponent
     
   ],
   imports: [
