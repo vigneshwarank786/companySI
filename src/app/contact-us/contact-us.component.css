@@ -1,0 +1,290 @@
+
+.section1 {
+    background-image: url('/assets/images/contact\ us\ background.png');
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100%;
+    height: 680px;
+    background-size: cover;
+    }
+    
+    .heading {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    }
+    
+    .s1h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    margin-top: 14%;
+    }
+    
+    .navbar-brand {
+        position: relative;
+        left: 70px;
+        animation: slide-in-left 0.5s ease-in-out;
+        margin-top: 1.1%;
+    }
+    
+    #navbarNav {
+    margin-right: 42px;
+    font-size: 20px;
+    }
+    
+    .nav-link {
+    color: white;
+    }
+    /*  */
+   
+
+    /*  *//* Styles for viewport sizes smaller than 768px (e.g., mobile phones) */
+@media (max-width: 767px) {
+    .section1 {
+        background-image: url('/assets/images/contact\ us\ background.png');
+        background-repeat: no-repeat;
+        overflow: hidden;
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        }
+    .navbar-brand {
+        position: relative;
+        left: 30px;
+        animation: slide-in-left 0.5s ease-in-out;
+        margin-top: 2.1%;
+
+    }
+    .con_col{ 
+        margin-top: 5%;
+        margin-left: 0%;
+       }
+       .con_p{
+           font-family: 'Poppins', sans-serif;
+           font-size: 1.5rem;
+           font-weight: bold;
+           color:#FE9800;
+           text-align: left;
+           margin-top: 20px;
+           margin-left: 0;
+
+           
+       }
+       .con_h1{
+           font-family: 'Poppins', sans-serif;
+           font-size: 2rem;
+           font-weight: bold;
+           color: white;
+           padding: 5px;
+           text-align: left;
+           margin: 10%;
+           
+       }
+       .con_h6{
+           font-family: 'Poppins', sans-serif;
+           font-size: 1.2rem;
+           font-weight: bold;
+           color: white;
+           text-align: left;
+
+       }
+       .con_a{
+           font-family: 'Poppins', sans-serif;
+           font-size: 1.2rem;
+           font-weight: 400;
+           color: white;
+           text-align: left;
+           
+           margin-top: 20%;
+           
+       }
+       a{
+           text-decoration: none;
+        
+       }    
+       form{
+     width: auto;
+     height: auto;
+       }
+       .con_col2{
+    margin-top: 5%;
+          
+       }
+       .form-group{
+    padding-top: 10px;
+        
+       }
+    }
+     input select{
+         
+       }
+       .con_btn{
+           margin-top: 25px;
+           width: 100%;
+           font-weight: bold;
+           color:white;
+           background-color: #1E2836;
+       }
+
+
+/* Styles for viewport sizes between 768px and 1024px (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .section1 {
+        background-image: url('/assets/images/contact\ us\ background.png');
+        background-repeat: no-repeat;
+        overflow: hidden;
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        }
+    .navbar-brand {
+        position: relative;
+        left: 30px;
+        animation: slide-in-left 0.5s ease-in-out;
+        margin-top: 2.1%;
+
+    }
+    .con_col{ 
+        margin-top: 5%;
+        margin-left: 0%;
+       }
+       .con_p{
+           font-family: 'Poppins', sans-serif;
+           font-size: 1.5rem;
+           font-weight: bold;
+           color:#FE9800;
+           text-align: left;
+           margin-top: 10px;
+           margin-left: 0;
+        }
+       .con_h1{
+           font-family: 'Poppins', sans-serif;
+           font-size: 2rem;
+           font-weight: bold;
+           color: white;
+           padding: 5px;
+           text-align: left;
+           margin: 10%;
+           
+       }
+       .con_h6{
+           font-family: 'Poppins', sans-serif;
+           font-size: 1.2rem;
+           font-weight: bold;
+           color: white;
+           text-align: left;
+
+       }
+       .con_a{
+           font-family: 'Poppins', sans-serif;
+           font-size: 1.2rem;
+           font-weight: 400;
+           color: white;
+           text-align: left;
+           
+           margin-top: 20%;
+           
+       }
+       a{
+           text-decoration: none;
+        
+       }    
+       form{
+     width: auto;
+     height: auto;
+       }
+       .con_col2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+          
+       }
+       .form-group{
+    padding-top: 10px;
+        
+       }
+    }
+     input select{
+         
+       }
+       .con_btn{
+    
+        
+           margin-top: 25px;
+           width: 100%;
+           font-size: 1.2rem;
+           font-weight: bold;
+           color:white;
+           background-color: #1E2836;
+           
+           
+       }
+
+
+/* Styles for viewport sizes larger than 1024px (e.g., laptops and desktops) */
+@media (min-width: 1025px) {
+    .con_col{
+        margin-left: 15%;  
+        margin-top: 2%;
+       }
+       .con_p{
+           font-family: 'Poppins', sans-serif;
+           font-size: 28px;
+           font-weight: bold;
+           color:#FE9800;
+           margin-top: 20px;
+           width: 500px;
+       }
+       .con_h1{
+           font-family: 'Poppins', sans-serif;
+           font-size: 54px;
+           font-weight: bold;
+           color: white;
+           margin: 10px 0px;
+       }
+       .con_h6{
+           font-family: 'Poppins', sans-serif;
+           font-size: 22px;
+           font-weight: bold;
+           color: white;
+           width: 400px;
+       }
+       .con_a{
+           font-family: 'Poppins', sans-serif;
+           font-size: 22px;
+           font-weight: 400;
+           color: white;
+       }
+       a{
+           text-decoration: none;
+       }
+       form{
+           width: 100%;
+       }
+       .con_col2{
+           /* background-color: #FE9800; */
+           width: 600px;
+           margin-left: -350px;
+           margin-top: 3%;
+       }
+       .form-group{
+           width: auto;
+           height: auto;
+           margin-top: 10px;
+           /* padding: 10px 5px; */
+           margin-left: 28%;
+           margin-top: 3%;
+       }
+       input,select{
+           padding: 10px 25px;
+           border-radius: 10px;
+       }
+       .con_btn{
+           text-align: center;
+           margin-left: 54%;
+           margin-top: 25px;
+           padding: 7px 14px;
+           width: 150px;
+           background-color: #1E2836;
+       }
+}

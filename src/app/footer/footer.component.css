@@ -1,0 +1,174 @@
+
+/* Global styles that apply to all viewport sizes */
+
+/* Styles for viewport sizes smaller than 768px (e.g., mobile phones) */
+@media (max-width: 767px) {
+ 
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.flogo{
+width: 200px;
+margin:25%;
+margin-left: 22%;
+}
+.quick{
+    display: flex;
+    flex-direction: column;
+    
+}
+.fh6{
+    text-align: center;
+    font-size: 2rem;
+    margin: 3%;
+    color:#e66c0f;
+    font-weight: bold;
+
+}
+.list-group-item{
+    margin-top: 3%;
+    text-decoration: none;
+    background-color: black;
+    border: none;
+    text-align: center;
+
+
+}
+.fa{
+    font-size: 1.5rem;
+    color: white;
+    margin-top: -2px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+}
+
+/* Styles for viewport sizes between 768px and 1024px (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 1024px) {
+ 
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.flogo{
+width: 200px;
+margin:5%;
+margin-left: 35%;
+}
+.quick{
+    display: flex;
+    flex-direction: column;
+    
+}
+.fh6{
+    text-align: center;
+    font-size: 2rem;
+    margin: 3%;
+    color:#e66c0f;
+    font-weight: bold;
+
+}
+.list-group-item{
+    margin-top: 3%;
+    text-decoration: none;
+    background-color: black;
+    border: none;
+    text-align: center;
+
+
+}
+.fa{
+    font-size: 1.5rem;
+    color: white;
+    margin-top: -2px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+}
+
+/* Styles for viewport sizes larger than 1024px (e.g., laptops and desktops) */
+@media (min-width: 1025px) {
+
+    .footer{
+        width: 1518.5px;
+        height: auto;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+    }
+    .flogo{
+    width: 200px;
+    margin:25%;
+    margin-left: 25%;
+    }
+    .quick{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .fh6{
+        text-align: center;
+        font-size: 32px;
+        margin: 3%;
+        color:#e66c0f;
+        font-weight: bold;
+    
+    }
+    .list-group-item{
+        margin-top: 3%;
+        text-decoration: none;
+        background-color: black;
+        border: none;
+        text-align: center;
+    
+    
+    }
+    .fa{
+        font-size: 34px;
+        color: white;
+        margin-top: -2px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: white;
+        border: none;
+        font-size: 24px;
+        font-weight: 500;
+    }
+}
+

@@ -12,6 +12,10 @@ import { WebsiteMaintanceComponent } from './website-maintance/website-maintance
 import { ThreeCardsComponent } from './three-cards/three-cards.component';
 import { WebApplicationComponent } from './web-application/web-application.component';
 import { LogoDesignComponent } from './logo-design/logo-design.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { ContentWritingComponent } from './content-writing/content-writing.component';
+import { PageContactusComponent } from './page-contactus/page-contactus.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -25,7 +29,11 @@ import { LogoDesignComponent } from './logo-design/logo-design.component';
     WebsiteMaintanceComponent,
     ThreeCardsComponent,
     WebApplicationComponent,
-    LogoDesignComponent
+    LogoDesignComponent,
+    ContactUsComponent,
+    ContentWritingComponent,
+    PageContactusComponent,
+    FooterComponent
     
   ],
   imports: [
