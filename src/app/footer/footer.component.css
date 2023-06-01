@@ -3,7 +3,9 @@
 
 /* Styles for viewport sizes smaller than 768px (e.g., mobile phones) */
 @media (max-width: 767px) {
- 
+ .container-fluid{
+    width: 100%;
+ }
 .footer{
     width: 100%;
     height: auto;
@@ -14,7 +16,7 @@
 .flogo{
 width: 200px;
 margin:25%;
-margin-left: 22%;
+margin-left: 15%;
 }
 .quick{
     display: flex;
@@ -23,7 +25,7 @@ margin-left: 22%;
 }
 .fh6{
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 3%;
     color:#e66c0f;
     font-weight: bold;
@@ -39,7 +41,7 @@ margin-left: 22%;
 
 }
 .fa{
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: white;
     margin-top: -2px;
 }
@@ -48,7 +50,7 @@ a{
     text-decoration: none;
     color: white;
     border: none;
-    font-size: 24px;
+    font-size: 1rem;
     font-weight: 500;
 }
 .social{
@@ -69,6 +71,7 @@ a{
     background-color: black;
     display: flex;
     flex-direction: column;
+    border-radius: 5%;
 }
 .flogo{
 width: 200px;
@@ -122,9 +125,13 @@ a{
 
 /* Styles for viewport sizes larger than 1024px (e.g., laptops and desktops) */
 @media (min-width: 1025px) {
-
+.container-fluid{
+    width: 1475px;
+    height: auto;
+    margin-top: 5%;
+}
     .footer{
-        width: 1518.5px;
+        width: 100%;
         height: auto;
         background-color: black;
         display: flex;

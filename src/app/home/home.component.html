@@ -12,37 +12,36 @@
           <a class="nav-link" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" routerLink="aboutus">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Services
+          </a>
+          <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+            <a class="dropdown-item" href="/web-maintenance">Web Maintenance</a>
+            <a class="dropdown-item" href="/web-application">Web Application</a>
+            <a class="dropdown-item" href="/logo-design">Logo Design</a>
+            <a class="dropdown-item" href="/seo-content">SEO Content</a>
+            <a class="dropdown-item" href="/ui-ux">UI/UX</a>
+            <a class="dropdown-item" href="/web-development">Web Development</a>
+          </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" routerLink="contactus">Contact</a>
         </li>
       </ul>
     </div>
   </nav>
   <div class="container-fluid">
     <div class="row">
-        <div class="col col-lg-6 col-sm-12 mt-1">
+        <div class="col-lg-6 col-sm-12">
             <h1 class="navHeading">"Achieve Digital Success as a Leading company with customized web solutions"</h1>
         <p class="navPara">Shapes Infinity is your trusted partner for digital transformation in your industry.</p>
     <button id="requestbtn" class="btn btn-warning">Request a Quote</button>    
     </div>
-    <div class="col col-lg-6 col-sm-12">
+    <div class=" col-lg-6 col-sm-12">
         <img class="img-fluid" id="homeimg" src="assets/images/Vector.png" alt="">
-        <div class="icon-container">
-            <a href="#">
-                <i class="fa fa-facebook-square" aria-hidden="true"></i>
-            </a>
-            <a href="#">
-                <i class="fa fa-twitter-square" aria-hidden="true"></i>
-            </a>
-            <a href="#">
-                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-            </a>
-          </div>
     </div>
     </div>
   </div>
@@ -56,7 +55,7 @@
 </div>
   </div>
   <div class="row">
-<div class="col col-lg-6" id="section2con">
+<div class="col-lg-6 col-sm-12" id="section2con">
 <h3>From Humble Beginnings to Creative heights</h3>
 <p>We believe that trust is the foundation of any successful partnership, and that’s why it’s a core
   value at Shapes Infinity. From the first conversation to the final delivery, we prioritize transparency
@@ -64,7 +63,7 @@
   </p>
   <button class="btn btn-warning">Read more</button>
 </div>
-<div class="col col-lg-6">
+<div class="col-lg-6 col-sm-12">
 <img id="section2img" class="img-fluid" src="/assets/images/Rectangle 225.png" alt="">
 </div>
   </div>
@@ -163,7 +162,7 @@
   </div>
   <div class="whySIcontainer container-fluid">
   <div class="row row2">
-    <div class="col-lg-2 sicol">
+    <div class="col-lg-2 col-sm-12 sicol">
       <!-- card row 1 -->
       <div class="card whySIcard">
         <img class="card-img-top img-fluid whySIimg" src="/assets/images/clientSatisfaction.jpg" alt="Card image cap">
@@ -174,8 +173,8 @@
       </div>
       </div>
       <!--  -->
-      <div class="col-lg-2 sicol even">
-      <div class="card whySIcard">
+      <div class="col-lg-2 col-sm-12 sicol ">
+      <div class="card whySIcard even">
         <img class="card-img-top img-fluid whySIimg" src="/assets/images/secureCoding.webp" alt="Card image cap">
         <div class="card-body whySIbody">
           <p class="card-text">Secure</p>
@@ -184,7 +183,7 @@
       </div>
       </div>
       <!--  -->
-      <div class="col-lg-2 sicol">
+      <div class="col-lg-2 col-sm-12 sicol">
         <!-- card row 1 -->
         <div class="card whySIcard">
           <img class="card-img-top img-fluid whySIimg" src="/assets/images/seo-tag-5402872-4521485.webp" alt="Card image cap">
@@ -195,8 +194,8 @@
         </div>
         </div>
 <!--  -->
-<div class="col-lg-3 sicol even">
-  <div class="card whySIcard">
+<div class="col-lg-3 col-sm-12 sicol ">
+  <div class="card whySIcard even">
     <img class="card-img-top img-fluid whySIimg" src="/assets/images/responsive-design-5402848-4521461.webp" alt="Card image cap">
     <div class="card-body whySIbody">
       <p class="card-text">Responsive</p>
@@ -207,7 +206,7 @@
       <!-- card row 1 ends -->
       <!-- card row 2 -->
       <div class="row row2">
-        <div class="col-lg-2 sicol">
+        <div class="col-lg-3 col-sm-12 sicol">
           <!-- card row 1 -->
           <div class="card whySIcard">
             <img class="card-img-top img-fluid whySIimg" src="/assets/images/cost effective.webp" alt="Card image cap">
@@ -218,8 +217,8 @@
           </div>
           </div>
           <!--  -->
-          <div class="col-lg-2 sicol even">
-          <div class="card whySIcard">
+          <div class="col-lg-2 col-sm-12 sicol ">
+          <div class="card whySIcard even">
             <img class="card-img-top img-fluid whySIimg" src="/assets/images/24x7.webp" alt="Card image cap">
             <div class="card-body whySIbody">
               <p class="card-text">24x7</p>
@@ -228,7 +227,7 @@
           </div>
           </div>
           <!--  -->
-          <div class="col-lg-2 sicol">
+          <div class="col-lg-2 col-sm-12 sicol">
             <!-- card row 1 -->
             <div class="card whySIcard">
               <img class="card-img-top img-fluid whySIimg" src="/assets/images/rightTimeDelivery.webp" alt="Card image cap">
@@ -239,12 +238,13 @@
             </div>
             </div>
     <!--  -->
-    <div class="col-lg-3 sicol even">
-      <div class="card whySIcard">
+    <div class="col-lg-3 col-sm-12 sicol ">
+      <div class="card whySIcard even">
         <img class="card-img-top img-fluid whySIimg" src="/assets/images/clientSatisfaction.jpg" alt="Card image cap">
         <div class="card-body whySIbody">
           <p class="card-text">100%</p>
-          <p class="card-text whySItext">Client Satisfaction</p>
+          <p class="card-text whySItext">Client happiness
+          </p>
         </div>
       </div>
       </div>
@@ -306,4 +306,5 @@
   </div>
   </div>
 </div>
+<app-footer></app-footer>
 <!-- section 5 ends -->

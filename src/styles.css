@@ -1,1 +1,798 @@
-/* You can add global styles to this file, and also import other style files */
+/* home page style */
+@media (max-width: 767px) {
+    .navbar-brand {
+        margin-left: 0;
+          animation: slide-in-left 0.5s ease-in-out;
+        }
+        
+       
+        
+        .navhead {
+          background-image: url("/assets/images/dark-red-black-abstract-4k_1546277906\ 1.png");
+          width: 100%;
+          height: auto;
+          margin-bottom: 2%;
+          overflow: hidden;
+        }
+        
+        #homeimg {
+          width: 100%;
+          height: auto;
+          margin: 3%;
+        }
+        
+        .navHeading {
+          font-family: 'Poppins', sans-serif;
+          font-size: 2.5rem;
+          color: rgb(250, 233, 233);
+          animation: fade-in 1s ease-in-out;
+        }
+        
+        .navPara {
+          font-size: 1.2rem;
+          font-family: 'Poppins', sans-serif;
+          color: aliceblue;
+          word-spacing: 5px;
+          margin-left: 10px;
+          margin: 3% 0;
+          animation: slide-in-right 1s ease-in-out;
+        }
+        
+        #requestbtn {
+          font-weight: 500;
+          font-family: 'Poppins', sans-serif;
+          margin: 10px 0;
+          margin-bottom: 20px;
+          animation: fade-in 1s ease-in-out;
+        }
+        
+        @keyframes slide-in-left {
+          0% {
+            opacity: 0;
+            transform: translateX(-50px);
+          }
+          100% {
+            opacity: 1;
+            transform: translateX(0);
+          }
+        }
+        
+        @keyframes slide-in-right {
+          0% {
+            opacity: 0;
+            transform: translateX(50px);
+          }
+          100% {
+            opacity: 1;
+            transform: translateX(0);
+          }
+        }
+        
+        @keyframes fade-in {
+          0% {
+            opacity: 0;
+          }
+          100% {
+            opacity: 1;
+          }
+        }
+        /* section 2 */
+        #section2head h2{
+          color: #000000;
+          text-align: center;
+          font-family: 'Poppins', sans-serif;
+          font-weight: bold;
+          font-size: 3rem;
+          margin: 3%;
+        
+        
+        }
+        #usbetter{
+          color: #d81717;
+        }
+        #section2con h3{
+          font-family: 'Poppins', sans-serif;
+          color:#1172e4;
+          font-size: 2.1rem;
+          font-weight: bold;
+          margin: 20px 0;
+          text-align: justify;
+        }
+        
+        #section2con p{
+          font-family: 'Poppins', sans-serif;
+          font-size: 1.2rem;
+          word-spacing: 2px;
+          margin-top: 20px;
+          
+        }
+        #section2img{
+          width: 100%;
+          height: auto;
+        }
+        
+        #section2con button{
+          font-weight: 500;
+          font-family: 'Poppins', sans-serif;
+          margin: 20px 0;
+        }
+        /* section 2 end */
+        /* card */
+         .offeringList{
+          text-align: center;
+          font-family: 'Poppins', sans-serif;
+          margin: 5% 0;
+          font-size: 3rem;
+          font-weight: bold;
+        }
+        .arrayService{
+          font-family: 'Poppins', sans-serif;
+          font-size: 2.6rem;
+          font-weight: bold;
+         margin: 7% 0;
+          color: #1172e4;
+        }
+        
+        /* .card{
+        width: 350px;
+        height:250px;
+        margin-left: 160px;
+        border-radius: 15px;
+        
+        } */
+        
+        
+        .boxshawdow{
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+        }
+        .whyh2{
+            font-family: 'Poppins', sans-serif;
+            text-align: left;
+            font-size: 1.6rem;
+            font-weight: bold;
+            margin: 10% 0;
+            word-spacing: 5px;
+          }
+          .whyh3{
+            font-family: 'Poppins', sans-serif;
+            font-size: 3rem;
+            font-weight: bold;
+            color: #1172e4;
+            margin: 5% 0;
+          }
+          .whySIcontainer{
+            font-family: 'Poppins', sans-serif;
+            width: 100%;
+            height: auto;
+            }
+         
+        
+          .whySIcard{
+            width: auto;
+            height: 100%;
+            border-radius: 50px;
+            margin-top: 10%;
+            border: none;
+          }
+        .sicol{
+          margin: 5% 0;
+          width: 100%;
+          height: auto;
+        
+        }
+          .whySIimg{
+          width: 80;
+          height: 80;
+          margin-left: 50px;
+          margin-top: -8px;
+          }
+          .whySIbody p{
+            text-align: center;
+            font-size: 2rem;
+            margin: 5% 0;
+          
+          }
+      
+          .whySItext{
+            font-weight: 600;
+            color: #e66c0f;
+            font-size: 2.5rem;
+            text-align: right;
+          }
+        
+        
+        /* testing */
+        /* animation for desktop view */
+        .whySItext {
+          font-weight: 600;
+          color: #e66c0f;
+          transform: scale(1);
+          animation: pulse 1s ease-in-out infinite alternate;
+        }
+        
+        @keyframes pulse {
+          from {
+            transform: scale(1);
+          }
+          to {
+            transform: scale(1.2);
+          }
+        }
+        .s5carsol{
+            width: 100%;
+          }
+          .carousel-item{
+            width:100%;
+            height:auto;
+          }
+          .carousel-item p{
+            font-family: 'Poppins', sans-serif;
+            font-size: 1rem;
+            margin-top: 3px;
+            width:100%;
+            font-weight: lighter;
+          }
+          .carousel-item h5{
+            /* background-color: #d81717; */
+            font-weight: 700;
+            padding-top: 5px;
+          }
+          .testicol{
+            box-shadow: rgba(125, 103, 103, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+          width: 450px;
+          background-color: white;
+          }
+          .carousel-item img{
+            width: 30%;
+            height: auto;
+            margin: 5%;
+        
+          }            
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar-brand {
+        margin-left: 0;
+          animation: slide-in-left 0.5s ease-in-out;
+        }
+        
+       
+        
+        .navhead {
+          background-image: url("/assets/images/dark-red-black-abstract-4k_1546277906\ 1.png");
+          width: 100%;
+          height: auto;
+          margin-bottom: 2%;
+          overflow: hidden;
+        }
+        
+        #homeimg {
+          width:50%;
+          height: auto;
+          margin: 5% 10%;
+        }
+        
+        .navHeading {
+          font-family: 'Poppins', sans-serif;
+          font-size: 4rem;
+          color: rgb(250, 233, 233);
+          animation: fade-in 1s ease-in-out;
+        }
+        
+        .navPara {
+          font-size: 2rem;
+          font-family: 'Poppins', sans-serif;
+          color: aliceblue;
+          word-spacing: 5px;
+          margin-left: 10px;
+          margin: 3% 0;
+          animation: slide-in-right 1s ease-in-out;
+        }
+        
+        #requestbtn {
+          font-weight: 500;
+          font-family: 'Poppins', sans-serif;
+          margin: 10px 0;
+          margin-bottom: 20px;
+          animation: fade-in 1s ease-in-out;
+        }
+        
+        @keyframes slide-in-left {
+          0% {
+            opacity: 0;
+            transform: translateX(-50px);
+          }
+          100% {
+            opacity: 1;
+            transform: translateX(0);
+          }
+        }
+        
+        @keyframes slide-in-right {
+          0% {
+            opacity: 0;
+            transform: translateX(50px);
+          }
+          100% {
+            opacity: 1;
+            transform: translateX(0);
+          }
+        }
+        
+        @keyframes fade-in {
+          0% {
+            opacity: 0;
+          }
+          100% {
+            opacity: 1;
+          }
+        }
+        /* section 2 */
+        #section2head h2{
+          color: #000000;
+          text-align: center;
+          font-family: 'Poppins', sans-serif;
+          font-weight: bold;
+          font-size: 5rem;
+          margin: 3%;
+        
+        
+        }
+        #usbetter{
+          color: #d81717;
+        }
+        #section2con h3{
+          font-family: 'Poppins', sans-serif;
+          color:#1172e4;
+          font-size: 3.1rem;
+          font-weight: bold;
+          margin: 20px 0;
+          text-align: justify;
+        }
+        
+        #section2con p{
+          font-family: 'Poppins', sans-serif;
+          font-size: 1.2rem;
+          word-spacing: 2px;
+          margin-top: 20px;
+          
+        }
+        #section2img{
+          width: 100%;
+          height: auto;
+        }
+        
+        #section2con button{
+          font-weight: 500;
+          font-family: 'Poppins', sans-serif;
+          margin: 20px 0;
+        }
+        /* section 2 end */
+        /* card */
+         .offeringList{
+          text-align: center;
+          font-family: 'Poppins', sans-serif;
+          margin: 5% 0;
+          font-size: 4rem;
+          font-weight: bold;
+        }
+        .arrayService{
+          font-family: 'Poppins', sans-serif;
+          font-size: 3rem;
+          font-weight: bold;
+         margin: 7% 0;
+          color: #1172e4;
+        }
+        
+        /* .card{
+        width: 350px;
+        height:250px;
+        margin-left: 160px;
+        border-radius: 15px;
+        
+        } */
+        
+        
+        .boxshawdow{
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+        }
+          /* section 4 */
+      .whyh2{
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-size: 3rem;
+        font-weight: bold;
+        margin: 10% 0;
+        word-spacing: 5px;
+      }
+      .whyh3{
+        font-family: 'Poppins', sans-serif;
+        font-size: 3rem;
+        font-weight: bold;
+        color: #1172e4;
+        margin: 5% 0;
+      }
+      .whySIcontainer{
+        font-family: 'Poppins', sans-serif;
+        width: 100%;
+        height: auto;
+        }
+    
+    
+      .whySIcard{
+        width: 100%;
+        height: 100%;
+        border-radius: 50px;
+        margin-top: 2%;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+    .sicol{
+      margin: 5% 0;
+      width: 100%;
+      height: auto;
+    
+    }
+      .whySIimg{
+      width: 30%;
+      height: 40%;
+      margin-top: -8px;
+      }
+      .whySIbody p{
+        text-align: center;
+        font-size: 2rem;
+        margin: 5% 0;
+      
+      }
+  
+      .whySItext{
+        font-weight: 600;
+        color: #e66c0f;
+        font-size: 2rem;
+        text-align: right;
+      }
+    
+    
+    /* testing */
+    /* animation for desktop view */
+    .whySItext {
+      font-weight: 600;
+      color: #e66c0f;
+      transform: scale(1);
+      animation: pulse 1s ease-in-out infinite alternate;
+    }
+    
+    @keyframes pulse {
+      from {
+        transform: scale(1);
+      }
+      to {
+        transform: scale(1.2);
+      }
+    }
+    .s5carsol{
+        width: 100%;
+      }
+      .carousel-item{
+        width:100%;
+        height:auto;
+      }
+      .carousel-item p{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1rem;
+        margin-top: 3px;
+        width:100%;
+        font-weight: lighter;
+      }
+      .carousel-item h5{
+        /* background-color: #d81717; */
+        font-weight: 700;
+        padding-top: 5px;
+      }
+      .testicol{
+        box-shadow: rgba(125, 103, 103, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+      width: 100%;
+      background-color: white;
+      }
+      .carousel-item img{
+        width: 20%;
+        height: auto;
+        margin: 5%;
+    
+      }
+    
+ 
+}
+@media (min-width: 1025px) {
+    .navbar-brand {
+        position: relative;
+        left: 70px;
+        animation: slide-in-left 0.5s ease-in-out;
+      }
+      
+      #navbarNav {
+        margin-right: 147px;
+        font-size: 20px;
+      }
+      
+      .nav-link {
+        color: white;
+      }
+      
+      .navhead {
+        background-image: url("/assets/images/dark-red-black-abstract-4k_1546277906\ 1.png");
+        width: fit-content;
+        height: 80%;
+        margin-bottom: 20px;
+        overflow: hidden;
+      }
+      
+      #homeimg {
+        width: 500px;
+        height: 400px;
+        position: relative;
+        left: 100px;
+      }
+      
+      .navHeading {
+        font-family: 'Poppins', sans-serif;
+        font-size: 54px;
+        margin-left: 20px;
+        color: rgb(250, 233, 233);
+      
+        animation: fade-in 1s ease-in-out;
+      }
+      
+      .navPara {
+        font-size: 2rem;
+        font-family: 'Poppins', sans-serif;
+        color: aliceblue;
+        word-spacing: 5px;
+        margin-left: 20px;
+        margin-top: 5%;
+        animation: slide-in-right 1s ease-in-out;
+      }
+      
+      #requestbtn {
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        margin: 20px;
+        
+        animation: fade-in 1s ease-in-out;
+      }
+      
+      @keyframes slide-in-left {
+        0% {
+          opacity: 0;
+          transform: translateX(-50px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+      
+      @keyframes slide-in-right {
+        0% {
+          opacity: 0;
+          transform: translateX(50px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+      
+      @keyframes fade-in {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      /* section 2 */
+      #section2head h2{
+        color: #000000;
+        text-align: center;
+        padding: 5px;
+        margin:30px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 50px;
+        margin-bottom: 40px;
+        padding: 25px;
+      
+      }
+      #usbetter{
+        color: #d81717;
+      }
+      #section2con h3{
+        font-family: 'Poppins', sans-serif;
+        margin-left: 50px;
+        color:#1172e4;
+        font-size: 48px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+      
+      #section2con p{
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        word-spacing: 2px;
+        margin-left: 50px;
+        margin-top: 20px;
+        
+      }
+      #section2img{
+        width: 580px;
+        height: 400px;
+      }
+      
+      #section2con button{
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        margin-left: 50px;
+        margin: 20px 50px 0;
+      }
+      /* section 2 end */
+      /* card */
+       .offeringList{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        padding: 35px;
+        margin: 20px 0;
+        font-size: 56px;
+        font-weight: bold;
+      }
+      .arrayService{
+        font-family: 'Poppins', sans-serif;
+        font-size: 48px;
+        font-weight: bold;
+        padding: 5px;
+        margin-bottom: 30px;
+        margin-left: 50px;
+        width: 500px;
+        color: #1172e4;
+      }
+      
+      /* .card{
+      width: 350px;
+      height:250px;
+      margin-left: 160px;
+      border-radius: 15px;
+      
+      } */
+      
+      
+      .boxshawdow{
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+      }
+      .s5carsol{
+        width: 50px;
+      }
+      .carousel-item{
+        width:350px;
+        height:350px;
+      }
+      .carousel-item p{
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        margin-top: 3px;
+        width:100%;
+        font-weight: lighter;
+      }
+      .carousel-item h5{
+        /* background-color: #d81717; */
+        position:absolute;
+        font-weight: 700;
+        bottom: 90px;
+        padding-top: 5px;
+      }
+      .testicol{
+        box-shadow: rgba(125, 103, 103, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+      width: 450px;
+      background-color: white;
+      }
+      .carousel-item img{
+        margin-top:70px;
+        width: 80px;
+        height: 60;
+        margin-bottom: 1px;
+      }
+}
+/* home page style ends */
+
+/* content writing */
+@media (max-width: 767px) {
+    .fcards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .fcard{
+        width: 100%;
+        height: auto;
+        padding: 2%;
+        margin-top: 2%;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+    .fcardh5{
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        color: #1172e4;
+    }
+    .fcardp{
+        font-family: 'Poppins', sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        margin-top: 5%;
+        word-spacing: 2%;
+        letter-spacing: 2px;
+       
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .fcards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .fcard{
+        width: 90%;
+        height: auto;
+        padding: 2%;
+        margin-top: 2%;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+    .fcardh5{
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        color: #1172e4;
+    }
+    .fcardp{
+        font-family: 'Poppins', sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        margin-top: 5%;
+        word-spacing: 2%;
+        letter-spacing: 2px;
+       
+    }
+}
+@media (min-width: 1025px) {
+    .fcards{
+        display: flex;
+        margin: 4% 0%;
+        justify-content: space-around;
+    }
+    .fcard{
+        width: 400px;
+        height: 350px;
+        padding: 2%;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+    .fcardh5{
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        color: #1172e4;
+    }
+    .fcardp{
+        font-family: 'Poppins', sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        margin-top: 5%;
+        word-spacing: 2%;
+        letter-spacing: 2px;
+       
+    }
+}
+/* content writing ends */

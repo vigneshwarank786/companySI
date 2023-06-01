@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutUsComponent } from './about-us/about-us.component';
-import { EnquiryComponent } from './enquiry/enquiry.component';
 import { WebsiteDevelopentComponent } from './website-developent/website-developent.component';
 import { UxComponent } from './ux/ux.component';
 import { WebsiteMaintanceComponent } from './website-maintance/website-maintance.component';
@@ -16,6 +15,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ContentWritingComponent } from './content-writing/content-writing.component';
 import { PageContactusComponent } from './page-contactus/page-contactus.component';
 import { FooterComponent } from './footer/footer.component';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -23,7 +23,6 @@ import { FooterComponent } from './footer/footer.component';
     AppComponent,
     HomeComponent,
     AboutUsComponent,
-    EnquiryComponent,
     WebsiteDevelopentComponent,
     UxComponent,
     WebsiteMaintanceComponent,
@@ -38,7 +37,8 @@ import { FooterComponent } from './footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -89,34 +89,7 @@
         margin: 3% 0;
         
     }
-    .fcards{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-    }
-    .fcard{
-        width: 100%;
-        height: auto;
-        padding: 2%;
-        margin-top: 2%;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-    }
-    .fcardh5{
-        font-family: 'Poppins', sans-serif;
-        font-size: 24px;
-        font-weight: bold;
-        color: #1172e4;
-    }
-    .fcardp{
-        font-family: 'Poppins', sans-serif;
-        font-size: 22px;
-        font-weight: 400;
-        margin-top: 5%;
-        word-spacing: 2%;
-        letter-spacing: 2px;
-       
-    }
+  
     .row2{
         margin: 4% 2%;
     }
@@ -208,34 +181,7 @@
         margin: 3% 0;
         
     }
-    .fcards{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-    }
-    .fcard{
-        width: 90%;
-        height: auto;
-        padding: 2%;
-        margin-top: 2%;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-    }
-    .fcardh5{
-        font-family: 'Poppins', sans-serif;
-        font-size: 24px;
-        font-weight: bold;
-        color: #1172e4;
-    }
-    .fcardp{
-        font-family: 'Poppins', sans-serif;
-        font-size: 22px;
-        font-weight: 400;
-        margin-top: 5%;
-        word-spacing: 2%;
-        letter-spacing: 2px;
-       
-    }
+    
     .row2{
         margin: 4% 2%;
     }
@@ -319,32 +265,7 @@
         font-size: 52px;
         font-weight: bold;
     }
-    .fcards{
-        display: flex;
-        margin: 4% 0%;
-        justify-content: space-around;
-    }
-    .fcard{
-        width: 400px;
-        height: 350px;
-        padding: 2%;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-    }
-    .fcardh5{
-        font-family: 'Poppins', sans-serif;
-        font-size: 24px;
-        font-weight: bold;
-        color: #1172e4;
-    }
-    .fcardp{
-        font-family: 'Poppins', sans-serif;
-        font-size: 22px;
-        font-weight: 400;
-        margin-top: 5%;
-        word-spacing: 2%;
-        letter-spacing: 2px;
-       
-    }
+  
     .row2{
         margin: 4% 2%;
     }
