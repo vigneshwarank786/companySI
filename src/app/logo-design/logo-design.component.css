@@ -1,103 +1,3 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-.section1 {
-    background-image: url('/assets/images/final 5.png');
-    background-repeat: no-repeat;
-    overflow: hidden;
-    width: 100%;
-    height: 450px;
-    background-size: cover;
-  }
-  
-  .heading {
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-  }
-  
-  .s1h2 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 2.5rem;
-    color: white;
-    text-align: center;
-    margin-top: 6%;
-  }
-  
-    .navbar-brand {
-        position: relative;
-        left: 70px;
-        animation: slide-in-left 0.5s ease-in-out;
-        margin-top: 0.4%;
-    }
-  
-  #navbarNav {
-    margin-right: 42px;
-    font-size: 20px;
-  }
-  
-  .nav-link {
-    color: white;
-  }
-  .s1row{
-    margin: 5% 1%;
-  }
-  
-  .r1h1{
-    font-family: 'Poppins', sans-serif;
-    font-size: 56px;
-    font-weight: bold;
-    margin-top: 16%;
-  }
-  .r1p{
-    font-family: 'Poppins', sans-serif;
-    font-size: 26px;
-    font-weight: 500;
-    margin-top: 5%;
-  }
-  .r1img{
-width: 729px;
-height: 604px;
-  }
-  .r2h1{
-    font-family: 'Poppins', sans-serif;
-    font-size: 56px;
-    font-weight: bold;
-    margin-top: 7%;
-  }
-  .r2p{
-    font-family: 'Poppins', sans-serif;
-    font-size: 26px;
-    font-weight: 500;
-    margin-top: 7%;
-  }
-  .r2img{
-width: 700px;
-height: 989px;
-  }
-  .section3{
-    
-    width: 1235px;
-    height: 286px;
-    background-color: #E66C0F;
-    opacity: 0.7;
-    margin-top: 5%;
-  }
-  .s3h1{
-    font-family: 'Poppins', sans-serif;
-    font-size: 96px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    text-align: center;
-    color: white;
-    position: relative;
-    top:-35px;
-
-
-  }
-  /* Global styles that apply to all viewport sizes */
 
 /* Styles for viewport sizes smaller than 768px (e.g., mobile phones) */
 @media (max-width: 767px) {
@@ -168,7 +68,7 @@ height: 989px;
         margin-bottom: 5%;
     
       }
-      .r1img{
+      .r1img .r2img{
     width: 100%;
     height: auto;
     margin-top: 5%;
@@ -187,12 +87,6 @@ height: 989px;
         font-weight: 800;
         margin-top: 5%;
         text-align: justify;
-      }
-      .r2img{
-    width: 100%;
-    height: auto;
-    margin-top: 5%;
-
       }
       .section3{
         
@@ -343,7 +237,9 @@ height: 989px;
 
 /* Styles for viewport sizes larger than 1024px (e.g., laptops and desktops) */
 @media (min-width: 1025px) {
-
+*{
+  font-family: 'Poppins', sans-serif;
+}
     
 .section1 {
     background-image: url('/assets/images/final 5.png');
@@ -355,12 +251,11 @@ height: 989px;
   }
   
   .heading {
-    font-family: 'Poppins', sans-serif;
     text-align: center;
   }
   
   .s1h2 {
-    font-family: 'Poppins', sans-serif;
+    
     font-size: 2.5rem;
     color: white;
     text-align: center;
@@ -387,13 +282,13 @@ height: 989px;
   }
   
   .r1h1{
-    font-family: 'Poppins', sans-serif;
+    
     font-size: 56px;
     font-weight: bold;
     margin-top: 16%;
   }
   .r1p{
-    font-family: 'Poppins', sans-serif;
+    
     font-size: 26px;
     font-weight: 500;
     margin-top: 5%;
@@ -403,13 +298,13 @@ width: 729px;
 height: 604px;
   }
   .r2h1{
-    font-family: 'Poppins', sans-serif;
+    
     font-size: 56px;
     font-weight: bold;
     margin-top: 7%;
   }
   .r2p{
-    font-family: 'Poppins', sans-serif;
+    
     font-size: 26px;
     font-weight: 500;
     margin-top: 7%;
@@ -427,7 +322,6 @@ height: 989px;
     margin-top: 5%;
   }
   .s3h1{
-    font-family: 'Poppins', sans-serif;
     font-size: 96px;
     font-weight: bold;
     letter-spacing: 2px;
