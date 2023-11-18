@@ -1,23 +1,44 @@
 <div class="container-fluid page-contactus">
     <div class="row">
-    <div class="col-lg-5 col-sm-12">
-        <h1 class="pch1">
-            Let's Create Experiences...
-        </h1>
-        <div class="group">
-        <input type="text" placeholder="Name">
-        <input type="email" placeholder="Email">
-        <input type="text" placeholder="Mobile">
-        <select name="Service" id="services">
-            <option value="Website-development">Website Developement</option>
-            <option value="UI/UX">UI/UX</option>
-            <option value="Logo-design">Logo Design</option>
-            <option value="SEO Content">SEO Content</option>
-            <option value="Website Maintance">Website Maintaince</option>
-            <option value="Web Application">Web Application</option>
-          </select>
-        </div>
-        <button type="submit" class="btn btn-light">Submit</button>
+      <div class="col-lg-5 col-sm-12">
+        <h1 class="pch1">Let's Create Experiences...</h1>
+        <form (ngSubmit)="submitForm()" #contactForm="ngForm" novalidate>
+          <div class="group">
+            <input type="text" placeholder="Name" name="name" [(ngModel)]="formData.name" required minlength="2" maxlength="50">
+            <div *ngIf="contactForm.controls['name'].touched && contactForm.controls['name'].invalid">
+              <div *ngIf="contactForm.controls['name'].errors?.['required']" class="text-danger">Name is required.</div>
+              <div *ngIf="contactForm.controls['name'].errors?.['minlength']" class="text-danger">Name should have at least 2 characters.</div>
+              <div *ngIf="contactForm.controls['name'].errors?.['maxlength']" class="text-danger">Name should have at most 50 characters.</div>
+            </div>
+            
+            <input type="email" placeholder="Email" name="email" [(ngModel)]="formData.email" required email>
+            <div *ngIf="contactForm.controls['email'].touched && contactForm.controls['email'].invalid">
+              <div *ngIf="contactForm.controls['email'].errors?.['required']" class="text-danger">Email is required.</div>
+              <div *ngIf="contactForm.controls['email'].errors?.['email']" class="text-danger">Invalid email format.</div>
+            </div>
+            
+            <input type="text" placeholder="Mobile" name="mobile" [(ngModel)]="formData.mobile" required pattern="[0-9]{10,15}">
+            <div *ngIf="contactForm.controls['mobile'].touched && contactForm.controls['mobile'].invalid">
+              <div *ngIf="contactForm.controls['mobile'].errors?.['required']" class="text-danger">Mobile number is required.</div>
+              <div *ngIf="contactForm.controls['mobile'].errors?.['pattern']" class="text-danger">Invalid mobile number format. Should be numeric with 10 to 15 digits.</div>
+            </div>
+            
+            <select name="service" id="services" [(ngModel)]="formData.service" required>
+              <option value="" disabled selected>Choose a service</option>
+              <option value="Website-development">Website Development</option>
+              <option value="UI/UX">UI/UX</option>
+              <option value="Logo-design">Logo Design</option>
+              <option value="SEO-Content">SEO Content</option>
+              <option value="Website-Maintenance">Website Maintenance</option>
+              <option value="Web-Application">Web Application</option>
+            </select>
+            <div *ngIf="contactForm.controls['service'].touched && contactForm.controls['service'].invalid" class="text-danger">
+              <div *ngIf="contactForm.controls['service'].errors?.['required']">Service selection is required.</div>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-light">Submit</button>
+        </form>
+      </div>
     </div>
-    </div>
-    </div>
+  </div>
+  

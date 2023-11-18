@@ -9,16 +9,26 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" routerLink="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" routerLink="/aboutus">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Services
+              </a>
+              <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+                <a class="dropdown-item" routerLink="/web-maintenance">Web Maintenance</a>
+                <a class="dropdown-item" routerLink="/web-application">Web Application</a>
+                <a class="dropdown-item" routerLink="/logo-design">Logo Design</a>
+                <a class="dropdown-item" routerLink="/seo-content">SEO Content</a>
+                <a class="dropdown-item" routerLink="/ui-ux">UI/UX</a>
+                <a class="dropdown-item" routerLink="/web-development">Web Development</a>
+              </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" routerLink="/contactus">Contact</a>
             </li>
           </ul>
         </div>
@@ -34,35 +44,73 @@
                     <a class="con_a"href="tel:+971 561608606">Dubai : +971 561608606</a><br>
                     <a class="con_a"href="tel:+971 561608606">India : +91 8220880876</a>
                   </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 con_col2">
-            <form>
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Name">
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control" placeholder="Email">
-              </div>
-              <div class="form-group">
-                <input type="tel" class="form-control" placeholder="Mobile">
-              </div>
-              <div class="form-group">
-                <select class="form-control" placeholder="Service">
-                  <option value="">Select a service</option>
-                  <option value="option1">Option 1</option>
-                  <option value="option2">Option 2</option>
-                  <option value="option3">Option 3</option>
-                  <option value="option4">Option 4</option>
-                  <option value="option5">Option 5</option>
-                  <option value="option6">Option 6</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" rows="4" placeholder="Message"></textarea>
-              </div>
-              <button type="submit" class="btn btn-warning con_btn">Submit</button>
-            </form>
-    
- </div>
+                  <div class="col-lg-6 col-md-6 col-sm-12 con_col2">
+                    <form (ngSubmit)="submitForm()" #contactForm="ngForm">
+                      <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Name" name="name" [(ngModel)]="formData.name"
+                          [required]="true" minlength="2" maxlength="50" pattern="[a-zA-Z\s]+">
+                        <div *ngIf="(contactForm.submitted || contactForm.controls['name'].touched) && contactForm.controls['name'].invalid"
+                          class="text-danger">
+                          <span *ngIf="contactForm.controls['name'].errors?.['required']">Name is required.</span>
+                          <span *ngIf="contactForm.controls['name'].errors?.['pattern']">Invalid name format. Only letters and spaces allowed.</span>
+                          <span *ngIf="contactForm.controls['name'].errors?.['minlength']">Name should have at least 2 characters.</span>
+                          <span *ngIf="contactForm.controls['name'].errors?.['maxlength']">Name should have at most 50 characters.</span>
+                        </div>
+                      </div>
+                    
+                      <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email" name="email" [(ngModel)]="formData.email"
+                          [required]="true" email>
+                        <div *ngIf="(contactForm.submitted || contactForm.controls['email'].touched) && contactForm.controls['email'].invalid"
+                          class="text-danger">
+                          <span *ngIf="contactForm.controls['email'].errors?.['required']">Email is required.</span>
+                          <span *ngIf="contactForm.controls['email'].errors?.['email']">Invalid email format.</span>
+                        </div>
+                      </div>
+                    
+                      <div class="form-group">
+                        <input type="tel" class="form-control" placeholder="Mobile" name="mobile" [(ngModel)]="formData.mobile"
+                          [required]="true" pattern="[0-9]{10,15}">
+                        <div *ngIf="(contactForm.submitted || contactForm.controls['mobile'].touched) && contactForm.controls['mobile'].invalid"
+                          class="text-danger">
+                          <span *ngIf="contactForm.controls['mobile'].errors?.['required']">Mobile number is required.</span>
+                          <span *ngIf="contactForm.controls['mobile'].errors?.['pattern']">Invalid mobile number format. Should be numeric with 10 to 15 digits.</span>
+                        </div>
+                      </div>
+                    
+                      <div class="form-group">
+                        <select class="form-control" name="service" [(ngModel)]="formData.service" [required]="true">
+                          <option value="" selected disabled>Choose a service</option>
+                          <option value="web-maintenance">Web Maintenance</option>
+                          <option value="web-application">Web Application</option>
+                          <option value="logo-design">Logo Design</option>
+                          <option value="seo-content">SEO Content</option>
+                          <option value="ui-ux">UI/UX</option>
+                          <option value="web-development">Web Development</option>
+                        </select>
+                        <div *ngIf="(contactForm.submitted || contactForm.controls['service'].touched) && contactForm.controls['service'].invalid"
+                          class="text-danger">
+                          <span *ngIf="contactForm.controls['service'].errors?.['required']">Service selection is required.</span>
+                        </div>
+                      </div>
+                    
+                      <div class="form-group">
+                        <textarea class="form-control" rows="4" placeholder="Message" name="message" [(ngModel)]="formData.message"
+                          [required]="true" minlength="10" maxlength="500"></textarea>
+                        <div *ngIf="(contactForm.submitted || contactForm.controls['message'].touched) && contactForm.controls['message'].invalid"
+                          class="text-danger">
+                          <span *ngIf="contactForm.controls['message'].errors?.['required']">Message is required.</span>
+                          <span *ngIf="contactForm.controls['message'].errors?.['minlength']">Message should have at least 10 characters.</span>
+                          <span *ngIf="contactForm.controls['message'].errors?.['maxlength']">Message should have at most 500 characters.</span>
+                        </div>
+                      </div>
+                    
+                      <button type="submit" class="btn btn-warning con_btn">Submit</button>
+                    </form>
+                    
+                    
+                  </div>
+                  
             </div>
         </div>
       </div>

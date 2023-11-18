@@ -1,3 +1,4 @@
+
 .section1 {
     background-image: url('/assets/images/final\ 2.png');
     background-repeat: no-repeat;
@@ -100,7 +101,7 @@
   
   
   
-  *{overflow: hidden;}
+  /* *{overflow: hidden;} */
   
   
 

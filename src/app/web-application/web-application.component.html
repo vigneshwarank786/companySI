@@ -116,26 +116,26 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" routerLink="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" routerLink="/aboutus">About</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Services
               </a>
               <div class="dropdown-menu" aria-labelledby="servicesDropdown">
-                <a class="dropdown-item" href="/web-maintenance">Web Maintenance</a>
-                <a class="dropdown-item" href="/web-application">Web Application</a>
-                <a class="dropdown-item" href="/logo-design">Logo Design</a>
-                <a class="dropdown-item" href="/seo-content">SEO Content</a>
-                <a class="dropdown-item" href="/ui-ux">UI/UX</a>
-                <a class="dropdown-item" href="/web-development">Web Development</a>
+                <a class="dropdown-item" routerLink="/web-maintenance">Web Maintenance</a>
+                <a class="dropdown-item" routerLink="/web-application">Web Application</a>
+                <a class="dropdown-item" routerLink="/logo-design">Logo Design</a>
+                <a class="dropdown-item" routerLink="/seo-content">SEO Content</a>
+                <a class="dropdown-item" routerLink="/ui-ux">UI/UX</a>
+                <a class="dropdown-item" routerLink="/web-development">Web Development</a>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" routerLink="/contactus">Contact</a>
             </li>
           </ul>
         </div>
@@ -149,41 +149,33 @@
         </div>
       </div>
     </div>
-     <div class="section2">
-      <div class="continer-fluid">
+    <div class="section2">
+      <div class="container-fluid">
         <div class="row s1row">
-          <div class="col-lg-7 col-sm-12 col-md-5">
+          <div class="col-lg-7 col-md-5 col-sm-12">
             <h2 class="s2_r1_h2">Creating custom solutions for complex business processes</h2>
-            <p class="s2_r1_p col-md-12" id="s2p">A custom solution for complex business processes eliminates
-              Manual processes streamline workflows, improve efficiency,
-              Reduce costs and free up employees for higher-value tasks.
-              They also provide data-driven insights and identify areas for further
-              Improvement.
-              </p>
-             </div>
-          <div class="col-lg-5 col-md-5 col-sm-12 s2_r1_img ">
-            <img class="img-fluid" src="/assets/images/Rectangle 200 (1).png" alt="">
+            <p class="s2_r1_p">
+              A custom solution for complex business processes eliminates manual processes, streamlines workflows, improves efficiency, reduces costs, and frees up employees for higher-value tasks. They also provide data-driven insights and identify areas for further improvement.
+            </p>
+          </div>
+          <div class="col-lg-5 col-md-7 col-sm-12">
+            <img class="img-fluid s2_r1_img" src="/assets/images/Rectangle 200 (1).png" alt="">
           </div>
         </div>
-      
         <div class="row cols2r2">
-          <div class="col-lg-5 col-md-5 col-sm-12 s2_r2_img"><img class="img-fluid" src="/assets/images/Rectangle 212.png" alt=""></div>
-          <div class="col-lg-7 col-sm-12 ">
-            <h2 class="s2_r2_h2">“Implementing Agile Development Processes for Faster
-Time-to-Market
-”</h2>
-          <p class="s2_r2_p">
-            Agile development methodology is iterative and allows
-            Team to refine software based on feedback. Regular
-            Sprints ensure the final product meets stakeholder needs.
-            Collaboration promotes transparency, accountability, and
-            Shared goal.
-            
-</p>
-</div>
+          <div class="col-lg-5 col-md-7 col-sm-12 s2_r2_img">
+            <img class="img-fluid" src="/assets/images/Rectangle 212.png" alt="">
+          </div>
+          <div class="col-lg-7 col-md-5 col-sm-12">
+            <h2 class="s2_r2_h2">“Implementing Agile Development Processes for Faster Time-to-Market”</h2>
+            <p class="s2_r2_p">
+              Agile development methodology is iterative and allows teams to refine software based on feedback. Regular sprints ensure the final product meets stakeholder needs. Collaboration promotes transparency, accountability, and a shared goal.
+            </p>
+          </div>
         </div>
       </div>
     </div>
+    
    
 <app-three-cards></app-three-cards>
   <!-- section 4 ends -->
