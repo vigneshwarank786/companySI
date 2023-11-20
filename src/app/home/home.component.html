@@ -9,10 +9,10 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" routerLink="/">Home</a>
+          <a class="nav-link" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/aboutus">About</a>
+          <a class="nav-link" routerLink="aboutus">About</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -28,7 +28,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/contactus">Contact</a>
+          <a class="nav-link" routerLink="contactus">Contact</a>
         </li>
       </ul>
     </div>
@@ -38,7 +38,7 @@
         <div class="col-lg-6 col-sm-12">
             <h1 class="navHeading">"Achieve Digital Success as a Leading company with customized web solutions"</h1>
         <p class="navPara">Shapes Infinity is your trusted partner for digital transformation in your industry.</p>
-    <button id="requestbtn" class="btn btn-warning">Request a Quote</button>    
+    <button id="requestbtn" class="btn btn-warning" routerLink="/contactus">Request a Quote</button>    
     </div>
     <div class=" col-lg-6 col-sm-12">
         <img class="img-fluid" id="homeimg" src="assets/images/Vector.png" alt="">
@@ -61,7 +61,7 @@
   value at Shapes Infinity. From the first conversation to the final delivery, we prioritize transparency
   and honesty in everything we do. Our team is dedicated to earning and keeping your trust, as you can focus on growing your business
   </p>
-  <button class="btn btn-warning">Read more</button>
+  <button class="btn btn-warning" routerLink="/aboutus">Our Profile</button>
 </div>
 <div class="col-lg-6 col-sm-12">
 <img id="section2img" class="img-fluid" src="/assets/images/Rectangle 225.png" alt="">
@@ -78,33 +78,30 @@
   <!-- 1-3 cards -->
   <div class="maincarddiv">
   <div class="row">
-    <div class="col col-lg-3 col-sm-12 cardContainer">
+    <div class="col col-lg-2 col-md-4 col-sm-12 cardContainer" routerLink="/web-development">
       <div class="card boxshawdow">
         <img class="card-img-top img-fluid" src="/assets/images/web development.png" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Website Designing & Development</h5>
+          <h5 class="card-title" >Website Designing & Development</h5>
           <p class="card-text">Get more customers with an SEO-optimized user-friendly visually coptivating website.</p>
-          <a href="#" class="btn readMore">Read More ></a>
         </div>
       </div>
     </div>
-        <div class="col col-lg-3 col-sm-12 cardContainer">
+        <div class="col col-lg-2 col-md-4 col-sm-12 cardContainer" routerLink="/web-maintenance">
           <div class="card boxshawdow">
             <img class="card-img-top img-fluid" src="/assets/images/website-maintenance.png" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Website Maintance</h5>
               <p class="card-text">Leave the webiste maintenance to us, so you can focus on growing your business.</p>
-              <a href="#" class="btn readMore">Read More ></a>
             </div>
           </div>
     </div>
-        <div class="col col-lg-3 col-sm-12 cardContainer">
+        <div class="col col-lg-2 col-md-4 col-sm-12 cardContainer" routerLink="/web-application">
           <div class="card boxshawdow">
             <img class="card-img-top img-fluid" src="/assets/images/web app.webp" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Website Application</h5>
               <p class="card-text">Whether you're a startup or an established business we can create a webiste application that fits your budget and needs</p>
-              <a href="#" class="btn readMore">Read More ></a>
             </div>
     </div>
  
@@ -116,33 +113,30 @@
 
 <!-- 4-6 cards -->
 <div class="row">
-  <div class="col col-lg-3 col-sm-12 cardContainer">
+  <div class="col col-lg-2 col-md-4 col-sm-12 cardContainer" routerLink="/seo-content">
     <div class="card boxshawdow">
       <img class="card-img-top img-fluid" src="/assets/images/content writing (2).png" alt="Card image cap">
       <div class="card-body">
         <h5 class="card-title">SEO Content Writing</h5>
         <p class="card-text">With our content writing services, you can communicate your brand's message effectively and authentically</p>
-        <a href="#" class="btn readMore">Read More ></a>
       </div>
     </div>
   </div>
-      <div class="col col-lg-3 col-sm-12 cardContainer">
+      <div class="col col-lg-2  col-md-4 col-sm-12 cardContainer" routerLink="/ui-ux">
         <div class="card boxshawdow">
           <img class="card-img-top img-fluid" src="/assets/images/logo creating.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">UI/UX Desinging</h5>
             <p class="card-text">Let us help you create a UI/UX design that reflects your brand's personality, values and goals.</p>
-            <a href="#" class="btn readMore">Read More ></a>
           </div>
         </div>
   </div>
-      <div class="col col-lg-3 col-sm-12 cardContainer">
+      <div class="col col-lg-2 col-md-4 col-sm-12 cardContainer">
         <div class="card boxshawdow">
           <img class="card-img-top img-fluid" src="/assets/images/logo service.webp" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Logo Design</h5>
             <p class="card-text">Our logo designs are created with your brand's stroy and values in mind.</p>
-            <a href="#" class="btn readMore">Read More ></a>
           </div>
   </div>
 
@@ -153,17 +147,18 @@
 </div>
 <!-- 4-6 cards ends -->
 <!-- section 4 -->
+
+<!-- 4-6 cards ends -->
+<!-- section 4 -->
 <div class="container">
   <div class="row">
-    <h2 class="whyh2">Why <span style=" color: #d81717;">Shapes Infinity</span></h2>
+    <h2 class="whyh2">Why <span style="color: #d81717;">Shapes Infinity</span></h2>
   </div>
   <div class="row">
     <h3 class="whyh3">We Furnish</h3>
   </div>
-  <div class="whySIcontainer container-fluid">
-  <div class="row row2">
-    <div class="col-lg-2 col-sm-12 sicol">
-      <!-- card row 1 -->
+  <div class="row whySIcontainer">
+    <div class="col-lg-2 col-md-3 col-sm-6 sicol">
       <div class="card whySIcard">
         <img class="card-img-top img-fluid whySIimg" src="/assets/images/clientSatisfaction.jpg" alt="Card image cap">
         <div class="card-body whySIbody">
@@ -171,87 +166,74 @@
           <p class="card-text whySItext">Design</p>
         </div>
       </div>
-      </div>
-      <!--  -->
-      <div class="col-lg-2 col-sm-12 sicol ">
-      <div class="card whySIcard even">
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-lg-2 col-md-3 col-sm-6 sicol">
+      <div class="card whySIcard">
         <img class="card-img-top img-fluid whySIimg" src="/assets/images/secureCoding.webp" alt="Card image cap">
         <div class="card-body whySIbody">
           <p class="card-text">Secure</p>
           <p class="card-text whySItext">Coding Techniques</p>
         </div>
       </div>
-      </div>
-      <!--  -->
-      <div class="col-lg-2 col-sm-12 sicol">
-        <!-- card row 1 -->
-        <div class="card whySIcard">
-          <img class="card-img-top img-fluid whySIimg" src="/assets/images/seo-tag-5402872-4521485.webp" alt="Card image cap">
-          <div class="card-body whySIbody">
-            <p class="card-text">SEO</p>
-            <p class="card-text whySItext">Friendly Content</p>
-          </div>
-        </div>
-        </div>
-<!--  -->
-<div class="col-lg-3 col-sm-12 sicol ">
-  <div class="card whySIcard even">
-    <img class="card-img-top img-fluid whySIimg" src="/assets/images/responsive-design-5402848-4521461.webp" alt="Card image cap">
-    <div class="card-body whySIbody">
-      <p class="card-text">Responsive</p>
-      <p class="card-text whySItext">Design</p>
     </div>
-  </div>
-  </div>
-      <!-- card row 1 ends -->
-      <!-- card row 2 -->
-      <div class="row row2">
-        <div class="col-lg-3 col-sm-12 sicol">
-          <!-- card row 1 -->
-          <div class="card whySIcard">
-            <img class="card-img-top img-fluid whySIimg" src="/assets/images/cost effective.webp" alt="Card image cap">
-            <div class="card-body whySIbody">
-              <p class="card-text">Cost</p>
-              <p class="card-text whySItext">Effective</p>
-            </div>
-          </div>
-          </div>
-          <!--  -->
-          <div class="col-lg-2 col-sm-12 sicol ">
-          <div class="card whySIcard even">
-            <img class="card-img-top img-fluid whySIimg" src="/assets/images/24x7.webp" alt="Card image cap">
-            <div class="card-body whySIbody">
-              <p class="card-text">24x7</p>
-              <p class="card-text whySItext">Helpdesk</p>
-            </div>
-          </div>
-          </div>
-          <!--  -->
-          <div class="col-lg-2 col-sm-12 sicol">
-            <!-- card row 1 -->
-            <div class="card whySIcard">
-              <img class="card-img-top img-fluid whySIimg" src="/assets/images/rightTimeDelivery.webp" alt="Card image cap">
-              <div class="card-body whySIbody">
-                <p class="card-text">On-Time</p>
-                <p class="card-text whySItext">Delivery</p>
-              </div>
-            </div>
-            </div>
-    <!--  -->
-    <div class="col-lg-3 col-sm-12 sicol ">
-      <div class="card whySIcard even">
-        <img class="card-img-top img-fluid whySIimg" src="/assets/images/clientSatisfaction.jpg" alt="Card image cap">
+
+    <!-- Card 3 -->
+    <div class="col-lg-2 col-md-3 col-sm-6 sicol">
+      <div class="card whySIcard">
+        <img class="card-img-top img-fluid whySIimg" src="/assets/images/seo-tag-5402872-4521485.webp" alt="Card image cap">
         <div class="card-body whySIbody">
-          <p class="card-text">100%</p>
-          <p class="card-text whySItext">Client happiness
-          </p>
+          <p class="card-text">SEO</p>
+          <p class="card-text whySItext">Friendly Content</p>
         </div>
       </div>
-      </div>
-      <!-- card row 2 ends -->
     </div>
+
+    <!-- Card 4 -->
+    <div class="col-lg-2 col-md-3 col-sm-6 sicol">
+      <div class="card whySIcard">
+        <img class="card-img-top img-fluid whySIimg" src="/assets/images/responsive-design-5402848-4521461.webp" alt="Card image cap">
+        <div class="card-body whySIbody">
+          <p class="card-text">Responsive</p>
+          <p class="card-text whySItext">Design</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="col-lg-2 col-md-3 col-sm-6 sicol">
+      <div class="card whySIcard">
+        <img class="card-img-top img-fluid whySIimg" src="/assets/images/cost effective.webp" alt="Card image cap">
+        <div class="card-body whySIbody">
+          <p class="card-text">Cost</p>
+          <p class="card-text whySItext">Effective</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="col-lg-2 col-md-3 col-sm-6 sicol">
+      <div class="card whySIcard">
+        <img class="card-img-top img-fluid whySIimg" src="/assets/images/24x7.webp" alt="Card image cap">
+        <div class="card-body whySIbody">
+          <p class="card-text">24x7</p>
+          <p class="card-text whySItext">Helpdesk</p>
+        </div>
+      </div>
+    </div>
+
+ 
+
+    <!-- Card 8 -->
+ 
   </div>
 </div>
+
+
+<!-- section 4 ends -->
+<!-- section 5 -->
+
 <!-- section 4 ends -->
 <!-- section 5 -->
 <div class="container-fluid">

@@ -1,6 +1,4 @@
-/* Global styles that apply to all viewport sizes */
 
-/* Base styles */
 .footer {
     width: 100%;
     background-color: #333; /* Dark background color */
@@ -33,7 +31,7 @@
   }
   
   .fa {
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: white; /* White social icons */
     margin-top: -2px;
   }
@@ -101,7 +99,7 @@
     .flogo {
       width: 200px; /* Adjust image width for larger screens */
       height: auto; /* Allow height to adjust proportionally */
-      margin-top: 60px;
+      margin-top: 80px;
     }
   
     /* Adjust other styles as needed for larger screens */

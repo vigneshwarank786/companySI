@@ -67,7 +67,7 @@
     width:100%;;
     height: auto;
   background-image: url('/assets/images/25.png');
-  /* overflow: hidden; */
+  overflow: hidden;
   background-repeat: no-repeat;
   background-size: cover;
   }
@@ -148,7 +148,7 @@
       width:100%;;
       height: auto;
     background-image: url('/assets/images/25.png');
-    /* overflow: hidden; */
+    overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
     }
@@ -319,10 +319,10 @@
   
   }
   .s5bg{
-    width:1379px; 
+    width:1109px; 
     height: 400px;
   background-image: url('/assets/images/25.png');
-  /* overflow: hidden; */
+  overflow: hidden;
   background-repeat: no-repeat;
   background-size: cover;
   }
